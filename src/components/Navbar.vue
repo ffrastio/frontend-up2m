@@ -2,7 +2,7 @@
   <div class="container mx-auto py-4">
     <nav>
       <div class="md:flex md:items-center md:justify-around">
-        <div class="flex items-center justify-between ml-4">
+        <div class="flex items-center justify-between px-4">
           <a href="#">
             <img
               src="@/assets/img/logo.jpg"
@@ -15,7 +15,7 @@
             class="text-primary md:hidden cursor-pointer mr-4"
           />
         </div>
-        <div class="md:flex md:items-center text-left px-4 ">
+        <div class="md:flex md:items-center text-left  ">
           <a
             href="#"
             class="text-primary hover:bg-primary hover:text-white px-4 py-2 block "
@@ -37,7 +37,7 @@
             >Sources</a
           >
         </div>
-        <div class="md:flex md:items-center text-left px-5 py-2 mt-2 ">
+        <div class="md:flex md:items-center text-left px-4 py-2 mt-2 ">
           <button
             class="border-2 rounded-md text-primary border-primary px-4 py-2  hover:bg-primary hover:text-white cursor-pointer"
           >
