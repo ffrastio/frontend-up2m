@@ -13,16 +13,17 @@
           <font-awesome-icon
             icon="bars"
             class="text-primary md:hidden cursor-pointer mr-4"
+            
           />
         </div>
-        <div class="md:flex md:items-center text-left  ">
+        <div class="md:flex md:items-center text-left " >
           <a
-            href="#"
+            href="/"
             class="text-primary hover:bg-primary hover:text-white px-4 py-2 block "
             >Home</a
           >
           <a
-            href="#"
+            href="about"
             class="text-primary hover:bg-primary hover:text-white px-4 py-2 block "
             >About</a
           >
@@ -37,7 +38,7 @@
             >Sources</a
           >
         </div>
-        <div class="md:flex md:items-center text-left px-4 py-2 mt-2 ">
+        <div class="md:flex md:items-center text-left px-4 py-2 mt-2 hidden">
           <button
             class="border-2 rounded-md text-primary border-primary px-4 py-2  hover:bg-primary hover:text-white cursor-pointer"
           >
@@ -49,6 +50,20 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  name: "Navbar",
+  data: () =>{
+    return {
+      
+
+    }
+  },
+  props: {
+    
+  },
+  methods: {
+    
+  },
+};
 </script>
 <style lang=""></style>
