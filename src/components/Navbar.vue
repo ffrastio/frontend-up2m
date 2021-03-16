@@ -7,7 +7,7 @@
             <img
               src="@/assets/img/logo.jpg"
               alt="Logo UP2M"
-              class="object-cover md:justify-between "
+              class="object-cover md:justify-between w-32 "
             />
           </a>
           <font-awesome-icon

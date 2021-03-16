@@ -51,7 +51,7 @@
             <img
               src="@/assets/img/logo.jpg"
               alt="Logo UP2M"
-              class="object-cover"
+              class="object-cover w-32"
             />
           </a>
         </div>
